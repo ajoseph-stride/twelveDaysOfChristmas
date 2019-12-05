@@ -2,8 +2,8 @@
 
 module.exports = {
     song:(day) => {
-        if (day < 1) {
-            return "Must be larger than zero.";
+        if (!parseInt(day)) {
+            return "Day must be an integer between 1 and 12";
         }
     }
 };
