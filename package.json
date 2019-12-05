@@ -1,0 +1,15 @@
+{
+  "name": "tdd-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for test driving pure functions and collaborations",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Travis Vander Hoop",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
